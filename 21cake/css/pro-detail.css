@@ -1,0 +1,521 @@
+.w1050 {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+/* 第二个header */
+.detail-header {
+    width: 1200px;
+    margin: 0 auto;
+    display: none;
+}
+
+.detail-header h2 {
+    float: left;
+    font-size: 20px;
+}
+
+.header-addcart {
+    margin-top: 25px;
+}
+
+.header-addcart i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../image/icon.png) no-repeat;
+    background-size: 310px;
+    background-position: -154px -37px;
+}
+
+.header-addcart:hover i {
+    background-position: -186px -37px;
+}
+
+.header-price {
+    font-size: 20px;
+}
+
+/* banner模块 */
+.pro-banner {
+    height: 520px;
+    margin-top: 90px;
+}
+
+.left-img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 924px;
+    height: 520px;
+}
+
+.left-img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.left-img-box video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 924px;
+    height: 520px;
+    z-index: 1;
+}
+
+.right-list {
+    width: 90px;
+    height: 520px;
+}
+
+.banner-list {
+    position: relative;
+    width: 90px;
+    height: 300px;
+}
+
+.banner-list>li>img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 90px;
+    height: 50px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.right-list>a {
+    display: block;
+    height: 230px;
+}
+
+.right-list>a img {
+    height: 160px;
+    width: 90px;
+}
+
+.banner-list>li>.choose {
+    border: 1px solid #aaa;
+}
+
+/* .banner-list>li>img:hover {
+    border: 1px solid #aaa;
+} */
+/* .banner-list>li:hover .left-img-box {
+    display: block;
+    z-index: 5;
+}  */
+.pro-detail-cont {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.detail-content-left {
+    width: 484px;
+}
+
+.detail-content-left h2 {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 20px 0;
+}
+
+.pro-detail-tag a {
+    display: inline-block;
+    padding: 0 8px;
+    margin: 15px 3px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #D5BFA7;
+    border-radius: 9px;
+    font-size: 12px;
+    color: #D5BFA7;
+}
+
+.detail-constituent li {
+    float: left;
+    line-height: 20px;
+}
+
+.detail-constituent li img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.detail-explain {
+    line-height: 24px;
+
+}
+
+.font-red {
+    color: red;
+}
+
+.b {
+    font-weight: 700;
+}
+
+.moredetail {
+    margin: 10px 0;
+}
+
+.moredetail li {
+    height: 36px;
+    line-height: 36px;
+}
+
+.detail-exist i,
+.detail-sweet i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.detail-exist i {
+    background: url(../image/icon.png) no-repeat;
+    background-size: 240px;
+    background-position: -118px -2px;
+}
+
+.detail-sweet i:first-child {
+    background: url(../image/sweet.png);
+    background-size: 20px;
+}
+
+.detail-sweet i:nth-child(n+2) {
+    background: url(../image/sweet_01.png);
+    background-size: 20;
+}
+
+.moredetail .detail-sweet .active {
+    background: url(../image/sweet_02.png);
+}
+
+/* detail右边价格模块 */
+.detail-content-right {
+    width: 500px;
+}
+
+.moresize {
+    display: none;
+    width: 195px;
+}
+
+.detail-price {
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #C69C6D;
+    margin: 20px 0 10px;
+}
+
+.detail-price span {
+    font-size: 26px;
+}
+
+.details-norms {
+    height: 70px;
+    margin-top: 8px;
+}
+
+.details-norms li {
+    float: left;
+    line-height: 25px;
+    height: 25px;
+    margin: 5px 0;
+    padding-right: 10px;
+}
+
+.details-norms li i {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(../image/icon.png);
+    background-size: 310px;
+    vertical-align: middle;
+}
+
+.details-norms .norms-size i {
+    background-position: -211px -5px;
+}
+
+.details-norms .norms-person i {
+    background-position: -237px -5px;
+}
+
+.details-norms .norms-tableware i {
+    background-position: -261px -5px;
+}
+
+.details-norms .norms-time i {
+    background-position: -286px -5px;
+}
+
+.pro-pic {
+    margin-top: 10px;
+}
+
+.pro-pic img {
+    width: 1050px;
+}
+
+.detail-morespec {
+    display: none;
+}
+
+.detail-morespec,
+.detail-spec {
+    height: 50px;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.detail-morespec dt,
+.detail-spec dt {
+    line-height: 30px;
+    width: 50px;
+}
+
+.detail-morespec dt,
+.detail-morespec dd,
+.detail-spec dt,
+.detail-spec dd {
+    float: left;
+    margin-right: 15px;
+}
+
+.detail-spec dd {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #e7e0dd;
+    line-height: 14px;
+}
+
+.detail-morespec dd {
+    position: relative;
+    height: 30px;
+    border: 1px solid #e7e0dd;
+    line-height: 30px;
+}
+
+.detail-morespec dd a {
+    display: block;
+    padding: 0 5px;
+    height: 28px;
+}
+
+/*
+.detail-spec dd a {
+    display: block;
+    width: 60px;
+    height: 30px;
+}
+.detail-spec dd a span {
+    display: block;
+}
+.detail-spec dd a i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 10px;
+    height: 10px;
+    background: url(../image/icon.png);
+    background-size: 310px;
+    background-position: 0 -40px;
+}
+.detail-spec dd a:visited {
+    border: 1px solid #684029;
+}
+.detail-spec dd a:visited i {
+    display: block;
+}
+*/
+.detail-spec dd input {
+    display: none;
+}
+
+.detail-spec dd label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    line-height: 14px;
+}
+
+.detail-morespec dd a:hover,
+.detail-spec dd:hover label {
+    color: #BB9772;
+}
+
+.detail-morespec dd .spec-choose,
+.detail-spec dd input:checked+label,
+.detail-exchange dd input:checked+label {
+    border: 1px solid #684029;
+}
+
+.detail-spec dd input:checked+label i,
+.detail-exchange dd input:checked+label i {
+    display: block;
+}
+
+.detail-morespec dd .spec-choose+i,
+.detail-spec dd label i,
+.detail-exchange dd label i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 10px;
+    height: 10px;
+    background: url(../image/icon.png);
+    background-size: 310px;
+    background-position: 0 -40px;
+}
+
+.detail-morespec dd .spec-choose+i {
+    display: block;
+}
+
+.detail-spec dd:last-child {
+    line-height: 30px;
+    margin-right: 0;
+}
+
+.detail-exchange {
+    height: 50px;
+    width: 500px;
+    padding: 5px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.detail-exchange dt {
+    height: 40px;
+    line-height: 40px;
+    width: 50px;
+}
+
+.detail-exchange dt,
+.detail-exchange dd {
+    float: left;
+    margin-right: 15px;
+}
+
+.detail-exchange dd input {
+    display: none;
+}
+
+.detail-exchange dd label {
+    position: relative;
+    display: block;
+    float: left;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #e7e0dd;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.detail-exchange dd label img {
+    width: 36px;
+    height: 36px;
+    margin-top: 3px;
+}
+
+.detail-exchange dd p,
+.detail-exchange dd span {
+    float: left;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.detail-exchange dd p {
+    display: none;
+}
+
+.detail-exchange dd input:checked~span {
+    display: none;
+}
+
+.detail-exchange dd input:checked~p {
+    display: block;
+}
+
+.detail-button {
+    margin-top: 20px;
+}
+
+.detail-button button {
+    width: 167px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    font-size: 13px;
+    background-color: pink;
+}
+
+.detail-button .detail-buy-btn {
+    background-color: #f4f4f4;
+    color: #684029;
+}
+
+.detail-button .detail-buy-btn:hover {
+    background-color: #EFEFEF;
+}
+
+.detail-button .detail-addshopcar-btn {
+    background-color: #684029;
+    color: #fff;
+}
+
+.detail-button .detail-addshopcar-btn:hover {
+    background-color: #482618;
+}
+
+.pro-pic {
+    margin-bottom: 40px;
+}
+
+.pro-pic>p {
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    line-height: 2;
+}
+
+.pro-pic div {
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* 在线联系模块 */
+.online-contact {
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: url(../image/im-icon.png);
+    background-size: 100%;
+    text-align: center;
+}
+
+.online-contact span {
+    line-height: 100px;
+    color: #684029;
+}

@@ -1,0 +1,108 @@
+/* 注册界面 */
+.reg {
+    margin-top: 80px;
+    height: 680px;
+    background: url(../image/passport-banner.jpg) center top no-repeat;
+}
+.reg-box {
+    width: 388px;
+    height: 500px;
+    margin: 115px 120px 0 0;
+    padding: 28px 42px;
+    border: 1px solid #E9E9E9 ;
+}
+.reg-title {
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #482618;
+}
+.form-user {
+    margin-top: 20px;
+}
+.form-user li {
+    margin-top: 10px;
+    position: relative;
+}
+.form-user li input,
+.form-user li button{
+    width: 302px;
+    height: 38px;
+    padding: 0 5px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    line-height: 38px;
+    color: #442818;
+}
+.form-user li input:focus {
+    border: 1px solid #DADADA;
+}
+.form-user li div {
+    font-size: 14px;
+    margin-left: 5px;
+}
+.err,
+.suc{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../image/icon.png) no-repeat;
+    background-size: 310px;
+    vertical-align: middle;
+}
+.err{
+    background-position: -41px -44px;
+}
+.suc {
+    background-position: -61px -44px;
+}
+.form-user li:nth-child(-n+3) i{
+    visibility: hidden;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+.check-code {
+    width: 302px;
+    height: 38px;
+}
+.check-code .write-code {
+    width: 140px;
+}
+.check-code .get-code {
+    width: 151px;
+    text-align: center;
+}
+.get-code {
+    font-size: 24px;
+    height: 38px;
+    line-height: 38px;
+    cursor: pointer;
+}
+.err-text {
+    visibility: hidden;
+    color: #FF714D;
+    line-height: 22px;
+}
+.form-user .reg-button {
+    height: 48px;
+    background-color: #442818;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    color: #fff;
+}
+.read-items {
+    margin-top: 15px;
+    line-height: 18px;
+}
+.read-items input {
+    vertical-align: middle;
+}
+.read-items input,
+.read-items label {
+    cursor: pointer;
+}
+.read-items a {
+    color: #2a99fa;
+}

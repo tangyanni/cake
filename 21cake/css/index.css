@@ -1,0 +1,371 @@
+/* banner模块 */
+
+.banner {
+    margin-top: 80px;
+    height: 480px;
+    min-width: 980px;
+}
+
+.sliders div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 480px;
+    text-align: center;
+    opacity: 1;
+    backface-visibility: hidden;
+    transition: all 1s linear;
+}
+
+.sliders div a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes slider {
+    0% {
+        opacity: 1;
+    }
+    8% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 1;
+    }
+}
+
+/*
+.sliders div:nth-child(1) {
+    animation: slider 20s 3s linear forwards infinite;
+    z-index: 4;
+}
+.sliders div:nth-child(2) {
+    animation: slider 20s 8s linear forwards infinite;
+    z-index: 3;
+}
+.sliders div:nth-child(3) {
+    animation: slider 20s 13s linear forwards infinite;
+    z-index: 2;
+}
+.sliders div:nth-child(4) {
+    animation: slider 20s 18s linear forwards infinite;
+    z-index: 1;
+}*/
+
+/*
+ .sliders div:nth-child(1) a {
+    background: url(../image/banner01.jpg) center center no-repeat;
+}
+.sliders div:nth-child(2) a {
+    background: url(../image/banner02.jpg) center center no-repeat;
+}
+.sliders div:nth-child(3) a {
+    background: url(../image/banner03.jpg) center center no-repeat;
+}
+.sliders div:nth-child(4) a {
+    background: url(../image/banner04.jpeg) center center no-repeat;
+} */
+
+.sliderlis {
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 5;
+}
+
+.sliderli {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fff;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #442818;
+}
+
+/*
+.sliderli:nth-child(1) {
+    animation: sliderli-selected 3s 0s forwards,
+    sliderli 20s 18s infinite forwards;
+}
+.sliderli:nth-child(2) {
+    animation: sliderli 20s 3s infinite forwards;
+}
+.sliderli:nth-child(3) {
+    animation: sliderli 20s 8s infinite forwards;
+}
+.sliderli:nth-child(4) {
+    animation: sliderli 20s 13s infinite forwards;
+}
+*/
+
+@keyframes sliderli-selected {
+    0% {
+        background-color: #442818;
+    }
+    99% {
+        background-color: #442818;
+    }
+    100% {
+        background-color: #fff;
+    }
+}
+
+@keyframes sliderli {
+    0% {
+        background-color: #442818;
+    }
+    25% {
+        background-color: #442818;
+    }
+    26% {
+        background-color: #fff;
+    }
+    100% {
+        background-color: #fff;
+    }
+}
+
+/* 主体内容 */
+
+/* 导航 */
+
+.bd-nav {
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bd-nav a {
+    opacity: .9;
+}
+
+.bd-nav a:hover {
+    opacity: 1;
+}
+
+/* module模块区域 */
+
+.bd-module-title {
+    font-size: 26px;
+    color: #724228;
+    line-height: 36px;
+    margin-left: 3px;
+}
+
+.bd-module-title span {
+    font-size: 14px;
+    color: #8E5D43;
+}
+
+.bd-module-banner {
+    margin: 30px 0;
+}
+
+.bd-module-banner a {
+    text-align: center;
+}
+
+/* 产品列表 */
+
+.pro-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.pro-list>li {
+    height: 365px;
+    width: 263px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.pro-list li a img {
+    width: 263px;
+    height: 230px;
+}
+
+.pro-list li a h6 {
+    height: 22px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000;
+}
+
+.pro-list li a p {
+    font-size: 14px;
+    color: #616161;
+    line-height: 24px;
+}
+
+.tag-list a {
+    display: inline-block;
+    padding: 0 8px;
+    margin: 8px 3px;
+    height: 18px;
+    border: 1px solid #D5BFA7;
+    border-radius: 9px;
+    font-size: 12px;
+    color: #D5BFA7;
+}
+
+.cart-info {
+    height: 38px;
+    width: 263px;
+    margin-top: 2px;
+    border-top: 1px dashed #D5BFA7;
+    padding: 10px 5px;
+}
+
+.cart-info .price {
+    color: #BB9772;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.cart-info .add-shopcar {
+    display: inline-block;
+    padding: 0 10px;
+    height: 20px;
+    background-color: #643E28;
+    color: #fff;
+    line-height: 20px;
+}
+
+.bd-module-pic li {
+    width: 542px;
+    height: 350px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.bd-module-pic li a img {
+    width: 542px;
+    height: 252px;
+}
+
+.bd-module-pic li a h4 {
+    font-size: 24px;
+    color: #000;
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.bd-module-pic li a span {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #AD814B;
+    padding: 0 15px;
+}
+
+.cart-more {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    z-index: -1;
+    background-color: #fff;
+    width: 100%;
+    transition: transform .5s linear;
+}
+
+.cart-more p {
+    font-size: 16px;
+    color: #684029;
+    margin: 15px 0;
+}
+
+.cart-spec li {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #e7e0dd;
+    line-height: 14px;
+    text-align: center;
+}
+
+.cart-spec li input {
+    display: none;
+}
+
+.cart-spec li label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    line-height: 14px;
+}
+
+.cart-spec li:hover label {
+    color: #BB9772;
+}
+
+.cart-spec li input:checked+label {
+    border: 1px solid #684029;
+}
+
+.cart-spec li input:checked+label i {
+    display: block;
+}
+
+.cart-spec li label i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 10px;
+    height: 10px;
+    background: url(../image/icon.png);
+    background-size: 310px;
+    background-position: 0 -40px;
+}
+
+.cart-button {
+    margin-top: 20px;
+}
+
+.cart-more .cart-button button {
+    width: 112px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    font-size: 13px;
+    background-color: pink;
+}
+
+.cart-more .cart-button .cart-buy-btn {
+    background-color: #f4f4f4;
+    color: #684029;
+}
+
+.cart-more .cart-button .cart-buy-btn:hover {
+    background-color: #EFEFEF;
+}
+
+.cart-more .cart-button .cart-addshopcar-btn {
+    background-color: #684029;
+    color: #fff;
+}
+
+.cart-more .cart-button .cart-addshopcar-btn:hover {
+    background-color: #482618;
+}

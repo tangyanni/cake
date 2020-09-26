@@ -1,0 +1,93 @@
+/* 注册界面 */
+.login {
+    margin-top: 80px;
+    height: 680px;
+    background: url(../image/passport-banner.jpg) center top no-repeat;
+}
+.login-box {
+    width: 388px;
+    height: 360px;
+    margin: 115px 120px 0 0;
+    padding: 28px 42px;
+    border: 1px solid #E9E9E9 ;
+}
+.login-title {
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #482618;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.login-title h2 {
+    width: 150px;
+}
+.login-title h2:first-child {
+    border-right: 1px solid #C9C9C9;
+}
+.login-title h2:last-child {
+    color: #C9C9C9;
+}
+.form-log {
+    margin-top: 20px;
+}
+.form-log li {
+    margin-top: 10px;
+}
+.form-log li input,
+.form-log li button{
+    width: 302px;
+    height: 38px;
+    padding: 0 5px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    line-height: 38px;
+    color: #442818;
+}
+.form-log li input:focus {
+    border: 1px solid #DADADA;
+}
+.err-text {
+    visibility: hidden;
+    color: #FF714D;
+    line-height: 22px;
+}
+.err,
+.suc{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../image/icon.png) no-repeat;
+    background-size: 310px;
+    vertical-align: middle;
+}
+.err{
+    background-position: -41px -44px;
+}
+.suc {
+    background-position: -61px -44px;
+}
+.form-log .login-button {
+    height: 48px;
+    background-color: #442818;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    color: #fff;
+}
+.login-last {
+    margin-top: 15px;
+    line-height: 18px;
+}
+.login-last input {
+    vertical-align: middle;
+}
+.login-last input,
+.login-last label {
+    cursor: pointer;
+}
+.login-last a {
+    float: right;
+    color: #744f3a;
+    margin-left: 15px;
+}
